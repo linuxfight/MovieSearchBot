@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieSearchBot", "MovieSearchBot.csproj", "{C95E41C7-DC95-4F6F-BD4D-1C3F012637A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3359904D-62F9-4CF0-B17E-6F5503685749}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C95E41C7-DC95-4F6F-BD4D-1C3F012637A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C95E41C7-DC95-4F6F-BD4D-1C3F012637A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C95E41C7-DC95-4F6F-BD4D-1C3F012637A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C95E41C7-DC95-4F6F-BD4D-1C3F012637A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
