@@ -8,6 +8,7 @@ WORKDIR /src
 COPY ["MovieSearchBot.csproj", "./"]
 RUN dotnet restore "MovieSearchBot.csproj"
 RUN dotnet tool install --global Microsoft.OpenApi.Kiota
+ENV PATH="${PATH}:/home/{$APP_UID}/.dotnet/tools"
 RUN kiota generate -d https://api.kinopoisk.dev/documentation-yaml -c KinoPoiskDev -l csharp
 COPY . .
 WORKDIR "/src/"

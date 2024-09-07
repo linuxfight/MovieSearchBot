@@ -1,0 +1,9 @@
+﻿services:
+  moviesearchbot:
+    image: ghcr.io/linuxfight/moviesearchbot:master
+    restart: unless-stopped
+    environment:
+      # get your api key from https://kinopoisk.dev/
+      - API_KEY=something
+      # bot token from https://t.me/botfather
+      - BOT_TOKEN=anything
